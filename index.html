@@ -74,7 +74,7 @@
                 <button class="btn rounded-full bg-[#894189] text-white px-4">
                     Life
                     <img alt="" src="images/heart.svg">
-                    <span id="current-life">1</span>
+                    <span id="current-life">5</span>
                 </button>
                 <button class="btn rounded-full bg-[#360490] text-white px-4">
                     Score
@@ -87,10 +87,10 @@
     <!--    playground end-->
 
     <!--    score page -->
-    <section class="score flex justify-center items-center min-h-screen hidden ">
+    <section id="final-score" class=" flex justify-center items-center min-h-screen hidden ">
         <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-lg">
-            <h1 class="text-8xl"><span class="font-extrabold">Score:</span>: <span>14</span></h1>
-            <button class="btn">
+            <h1 class="text-8xl"><span class="font-extrabold">Score:</span>: <span id="last-score">14</span></h1>
+            <button onclick="play()" class="btn">
                 Play again
             </button>
             <p>Practice will make you a pro </p>
